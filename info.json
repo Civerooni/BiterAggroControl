@@ -1,0 +1,11 @@
+{
+    "name": "BiterAggroControl",
+    "version": "0.1.0",
+    "title": "Biter Aggro Player Connect Control",
+    "author": "Shayne Civitarese",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.15",
+    "dependencies": ["base >= 0.15"],
+    "description": "This mode will change biter aggro on player log on and off events"
+}
