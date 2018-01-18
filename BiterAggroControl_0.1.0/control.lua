@@ -26,6 +26,7 @@ script.on_event({defines.events.on_tick},
 	      end
 	      -- Set enemy cease fire state to opposite of the connected state
 	      game.forces["enemy"].set_cease_fire(force, not player_is_connected)
+	      player_is_connected = false
 	   end
 	end
       end
